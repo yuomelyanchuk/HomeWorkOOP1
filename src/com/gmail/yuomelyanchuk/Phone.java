@@ -58,4 +58,10 @@ public class Phone {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Phone [model=" + model + ", number=" + number + ", isRegisteredOnNetwork=" + isRegisteredOnNetwork
+				+ ", workingNetwork=" + workingNetwork + "]";
+	}
+
 }
